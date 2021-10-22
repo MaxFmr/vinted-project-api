@@ -21,13 +21,10 @@ cloudinary.config({
 });
 
 // Import des routes
-const loginRoutes = require("./routes/user");
+const loginRoutes = require("./routes/users");
 app.use(loginRoutes);
 
-const signupRoutes = require("./routes/user");
-app.use(signupRoutes);
-
-const publishRoutes = require("./routes/Offers");
+const publishRoutes = require("./routes/offers");
 app.use(publishRoutes);
 //Modeles
 
