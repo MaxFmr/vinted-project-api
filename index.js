@@ -8,7 +8,7 @@ const cloudinary = require("cloudinary").v2;
 
 const app = express();
 app.use(formidableMiddleware());
-app.use(cors( ));
+app.use(cors());
 // Connexion à la BDD nommée "students-app" :
 mongoose.connect(process.env.MONGODB_URI);
 
