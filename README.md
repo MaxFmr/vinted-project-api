@@ -4,5 +4,5 @@ This project is a backend server connected to a database MongoDB for a replica o
 
 User/Authentification : Signup and login
 
-CRUD : create, read, update and delete an announce with images and user information.
+CRUD : create, read, update and delete an announce with images and user informations.
 
